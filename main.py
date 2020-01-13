@@ -28,7 +28,7 @@ for i in range(PAGES_COUNT):
         )
 
         # Получить информацию(title, body, images, datePublished)
-        
+
         title = post.xpath(
             "//h1[contains(@class, 'entry-title')]/text()"
         )
